@@ -10,17 +10,22 @@ namespace EmployeeWageComputation
     {
         public static void CheckAttendance()
         {
+            int WAGE_PER_HOUR = 20;
             int IS_FULL_TIME = 1;
+            int empHour = 0;
+            int empWage = 0;
             Random random = new Random();
-            int empCheck = random.Next(2);
+            int empCheck = random.Next(3);
             if (empCheck == IS_FULL_TIME)
             {
-                Console.WriteLine("Employee is Present");
+                empHour = 8;
             }
             else
             {
-                Console.WriteLine("Employee is Absent");
+                empHour = 0;
             }
+            empWage = empHour * WAGE_PER_HOUR;
+            Console.WriteLine("Employee Wage is: {0}", empWage);
         }
     }
 }
