@@ -6,7 +6,7 @@ namespace EmployeeWageComputation
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Employee Wage Computation Program");
-            EmployeeCheck.CheckAttendance();
+            EmployeeOperation.Operation();
         }
     }
 }
