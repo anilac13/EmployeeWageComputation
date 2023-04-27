@@ -13,10 +13,10 @@ namespace EmployeeWageComputation
         {
             int empHour = 0;
             int empWage = 0, totalEmpWage = 0;
-            Random random = new Random();
-            int empCheck = random.Next(3);
             for (int day=1; day<=WORKING_DAYS; day++)
             {
+                Random random = new Random();
+                int empCheck = random.Next(3);
                 switch (empCheck)
                 {
                     case IS_FULL_TIME:
