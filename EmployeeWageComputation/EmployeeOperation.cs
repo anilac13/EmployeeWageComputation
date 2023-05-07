@@ -9,7 +9,7 @@ namespace EmployeeWageComputation
     public class EmployeeOperation
     {
         public const int IS_FULL_TIME = 1, WAGE_PER_HOUR = 20, IS_PART_TIME = 2, WORKING_DAYS = 20, TOTAL_WORKING_HRS = 100;
-        public static void Operation()
+        public void Operation()
         {
             int empHour = 0;
             int totalEmpHrs = 0, totalWorkingDays = 0;
