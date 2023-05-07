@@ -31,11 +31,11 @@ namespace EmployeeWageComputation
                         break;
                 }
                 totalEmpHrs += empHour;
-                Console.WriteLine("Day#: "+totalWorkingDays+" EmpHrs: "+empHour);
+                Console.WriteLine("Day " + totalWorkingDays + "===> EmpHrs: " + empHour);
             }
-            Console.WriteLine("Total working days: " + totalEmpHrs);
+            Console.WriteLine("Total working Hours: " + totalEmpHrs);
             Console.WriteLine("Total working days: " + totalWorkingDays);
-            int totalEmpWage = totalEmpHrs*WORKING_DAYS;
+            int totalEmpWage = totalEmpHrs * WORKING_DAYS;
             Console.WriteLine("Employee wage is: {0}", totalEmpWage);
         }
     }
