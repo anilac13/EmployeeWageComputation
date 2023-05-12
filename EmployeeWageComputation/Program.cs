@@ -7,7 +7,6 @@ namespace EmployeeWageComputation
         {
             Console.WriteLine("Welcome to Employee Wage Computation Program");
             //EmployeeOperation employee = new EmployeeOperation()
-            //employee.Operation()
 
             EmpWageBuilderArray empWage = new EmpWageBuilderArray();
             empWage.AddCompanyEmpWage("Infosys", 20, 4, 15);
